@@ -1,0 +1,30 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: relative;
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.imageContainer {
+    max-width: 800px;
+    .image {
+        display: block;
+        max-width: 100%;
+    }
+}

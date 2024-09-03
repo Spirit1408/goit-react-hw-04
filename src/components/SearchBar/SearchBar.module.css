@@ -1,0 +1,33 @@
+.searchBar {
+    background-color: #3747ac;
+    padding: 10px;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.searchInput {
+    padding: 5px 5px 5px 40px;
+    min-width: 450px;
+    outline: transparent;
+    border-radius: 10px;
+    border: none;
+}
+
+.submitBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}

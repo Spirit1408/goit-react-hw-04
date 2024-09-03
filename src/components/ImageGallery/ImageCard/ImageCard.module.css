@@ -1,0 +1,50 @@
+.cardWrapper {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 220px; /* Регулируйте высоту изображения по отношению к карточке */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.attrsListWrapper {
+}
+
+.attrsList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: baseline;
+    text-align: center;
+    pointer-events: none;
+}
+
+.attrsList a {
+    color: black;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.title,
+.text {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-bottom: 5px;
+}
